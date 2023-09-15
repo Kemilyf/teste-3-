@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="estiloform.css">
+<title> Formulário </title>
+
+</head>
+
+<body>
+  <div id="imagem">
+    <img src="form1_back.jpg" >
+  </div>
+
+<h1>Dados da conta</h1>
+<hr>
+<form action="" method="post" name="form">
+  
+  <input type="hidden" name="deOnde" value="form organizado">
+  
+  <fieldset> 
+  <legend> Dados Pessoais: </legend>
+  <p>
+    <label for="nome"> Nome: </label>
+    <input type="text" name="nome" id="nome"></p>
+    
+  <p>
+    <label  for="email"> Email: </label>
+    <input type="text" name="email" id="email"></p>
+  </fieldset>
+  
+  <fieldset> 
+  <legend> Dados da Conta: </legend>  
+  <p>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha"></p>
+    
+  <p>
+    <label for="frase"> Frase <br>opcional: </label>
+    <textarea name="frase" id="frase"></textarea></p>
+    
+  </fieldset>
+  <p>
+    <input type="submit" value="enviar" id="butao"></p>
+</form>
+
+</body>
+</html>

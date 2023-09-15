@@ -1,0 +1,53 @@
+*{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding: 0px 20 0 120px;
+    margin-top: -20px;
+  }
+h1{
+    text-align: right;
+    margin-top: 600px;
+    color: #909;
+    margin-right: 500px;
+    margin-left: 500px;
+    line-height: 8px;
+}
+hr{
+ border-color: #909;
+ margin-right: 500px;
+ margin-left:350px;
+}
+#nome, #email, #senha, #frase{
+ background-color: #fcc;
+ width: 700px;
+ border: none;
+ 
+}
+fieldset{
+    margin-right: 500px;
+    margin-left: 500px;
+    align-items: start;
+    border-color: #fcc;
+    border-style:double;
+}
+#butao{
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: #fcc;
+    border-color: #fcc;
+    border: none;
+    width: 100px;
+}
+#imagem{
+   position: absolute;
+   width: 200px;
+   height: 600px;
+   margin-left: 390px;
+   margin-top: 70px;
+}
+#frase{
+    line-height: 8px;
+}

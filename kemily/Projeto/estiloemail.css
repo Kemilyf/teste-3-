@@ -1,0 +1,36 @@
+body {
+    background-image: url("NÃO\ POSSUI\ CADASTRO\ \(5\).svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+header{
+  background-color: black;
+  height: 50px;
+  margin: -10px;
+}
+  
+a{
+    color:white;
+    padding-left: 1800px;
+    font-size: 20px;
+    position: relative;
+    top: 20%;
+   
+   
+}
+
+
+a:hover{
+  color:deepskyblue;
+  text-decoration:none;
+}
+
+img{
+  position:absolute;
+top:350px;
+left:1150px 
+
+}
